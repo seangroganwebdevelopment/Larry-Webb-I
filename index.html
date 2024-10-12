@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAR' WEBB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <!-- Left and Right Halves for the Split Screen -->
+    <div class="left-half"></div>
+    <div class="right-half"></div>
+
+
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home">
+                    <img src="images/Lara Grogan White (1)_172x70.png">
+                </a>
+            </div>
+
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+            <ul class="nav-links" id="nav-links">
+                <!-- <li><a href="#">Home</a></li> -->
+                <li><a href="music.html">Music</a></li>
+                <!-- <li><a href="#about">Videos</a></li> -->
+                <li><a href="concerts.html">Concerts</a></li>
+                <!-- <li><a href="#contact">Bio</a></li>
+                <li><a href="#contact">Blog</a></li> -->
+                <!-- <li><a href="#">EN</a> | <a href="#">FR</a> | <a href="#">DE</a> -->
+            </ul>
+
+        </nav>
+    </header>
+
+    <section id="hero" class="blurred-box">
+        <div class="hero-text" id="hero-text">
+            <h1>THE SCULPTOR</h1>
+            <h2>DEBUT ALBUM</h2>
+
+            <a href="https://linktr.ee/laragrogan">
+                <button class="heroButton">LISTEN NOW</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription Section -->
+
+
+    <section id="newsletter">
+        <div class="newsletter-container">
+
+
+            <h3>Subscribe to Lara's Newsletter</h3>
+            <form action="#" method="post" id="subscribe-form">
+                <input type="text" name="firstname" placeholder="First Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <button type="submit" class="subscribeButton">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+        <p>&copy; 2024 Lara Grogan. All rights reserved.</p>
+        <!-- <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p> -->
+        <!-- <div class="language-switcher">
+            <a href="#">EN</a> | <a href="#">FR</a> | <a href="#">DE</a> | <a href="#">IT</a>
+        </div> -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

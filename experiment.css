@@ -1,0 +1,22 @@
+.container {
+    display: flex; /* Establishes a flex container */
+    width: 100%; /* Takes full width of the parent */
+    margin-top: 70px;
+ 
+}
+
+.box {
+    flex: 1; /* Each box takes equal space in the container */
+    display: flex; /* Makes the box a flex container */
+    flex-direction: column; /* Stacks children vertically */
+    
+    margin: 10px; /* Optional: Adds space between the boxes */
+    align-items: center;
+}
+
+.section {
+    flex: 1; /* Each section takes equal space in the box */
+    padding: 10px; /* Adds padding inside each section */
+    /* border: 1px solid #ccc;  */
+    margin: 5px; /* Adds space between sections */
+}

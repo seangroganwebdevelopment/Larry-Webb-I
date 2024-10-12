@@ -1,0 +1,24 @@
+To do list 24.06.29 
+
+- photo adjust on laptop size
+- add email newsletter subscription ()
+- dropdown language memory
+
+To do list 24.07.06
+
+- Hero photo on big screen and laptop sizes
+- album buttom: where to?
+- subcribe button. Link email service. 
+- subscribe button. :active
+- apply hover effects to navbar, Lara logo
+- social media
+- mobile website: hamburger obscured by dropdown
+
+Newsletter
+- welcome email (Python, Javascript?)
+- do by programming ourselves? from what number, how many addresses. 
+- make sure to integrate unsubscribe function into programme
+
+
+Drawings:
+- put on website (pen drawings)
