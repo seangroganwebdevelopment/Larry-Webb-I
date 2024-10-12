@@ -125,7 +125,7 @@ nav {
     justify-content: center;
     text-align: center;
     padding: 20px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
@@ -176,7 +176,7 @@ nav {
 }
 
 .concerts {
-    max-width: 800px;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -184,7 +184,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px 10px;
 }
 
 .date,
