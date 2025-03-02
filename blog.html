@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lara Grogan - Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog.css">
+    <script defer src="script.js"></script>
+    <style>
+        .blog-container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .blog-entry {
+            border-bottom: 1px solid #ccc;
+            padding: 15px 0;
+        }
+
+        .blog-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .blog-content {
+            display: none;
+            padding-top: 10px;
+        }
+
+        .toggle-button {
+            background-color: #D1AE9B;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        .toggle-button:hover {
+            background-color: #ac8672;
+        }
+
+        @media (max-width: 600px) {
+            .blog-container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/Lara Grogan White (1)_172x70.png">
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="music.html">Music</a></li>
+                <li><a href="live.html">Live</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="blog-container">
+        <h1>Blog</h1>
+        <div class="blog-entry">
+            <button class="toggle-button" onclick="toggleBlogContent('blog1')">2025.02.23 - My Blog</button>
+            <div class="blog-content" id="blog1">
+                <p>Welcome to my blog! This is where I share my thoughts, inspirations, and stories about my music journey. Stay tuned for more updates!</p>
+            </div>
+        </div>
+        <div class="blog-entry">
+            <button class="toggle-button" onclick="toggleBlogContent('blog2')">2025.03.03 - My Musical Journey</button>
+            <div class="blog-content" id="blog2">
+                <p>Music has always been a part of my life. Growing up in Luxembourg, I was deeply influenced by the storytelling of artists like The Beatles, Joni Mitchell, and Simon & Garfunkel. Their music inspired me to start writing my own songs when I was just 11 years old.</p>
+                <p>My journey took a significant turn when I started participating in competitions like the Screaming Fields Song Contest, where my original music gained recognition. Over the years, I’ve explored different sounds and styles, blending elements of pop, jazz, and classical music.</p>
+                <p>In 2024, I released my debut album, <i>The Sculptor</i>, a collection of songs I wrote between the ages of 14 and 18. One of its tracks, also titled “The Sculptor,” made it to the semi-finals of the UK Songwriting Contest 2023, which was an exciting milestone for me.</p>
+                <p>Beyond my solo work, I love collaborating on different projects. In 2022, I had the incredible opportunity to compose and perform <i>City and Its People</i> for the opening of Esch 2022, European Capital of Culture. This experience helped me grow as an artist and composer.</p>
+                <p>Currently, I perform live with two different projects: <i>Lara Grogan & Cello</i> and <i>Lara Grogan & Band</i>. Since October 2024, I’ve been studying songwriting at the Hochschule für Musik und Tanz in Cologne, where I’m constantly learning and pushing my creative boundaries.</p>
+                <p>Thank you for joining me on this journey! I’m excited to share more music and experiences with you.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lara Grogan. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleBlogContent(id) {
+            const content = document.getElementById(id);
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+
+</html>
